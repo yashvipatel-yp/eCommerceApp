@@ -1,0 +1,15 @@
+/Users/user/Desktop/eCommerceApp_YP/eCommerceApp_YP/bin/Debug/net7.0/eCommerceApp_YP
+/Users/user/Desktop/eCommerceApp_YP/eCommerceApp_YP/bin/Debug/net7.0/eCommerceApp_YP.deps.json
+/Users/user/Desktop/eCommerceApp_YP/eCommerceApp_YP/bin/Debug/net7.0/eCommerceApp_YP.runtimeconfig.json
+/Users/user/Desktop/eCommerceApp_YP/eCommerceApp_YP/bin/Debug/net7.0/eCommerceApp_YP.dll
+/Users/user/Desktop/eCommerceApp_YP/eCommerceApp_YP/bin/Debug/net7.0/eCommerceApp_YP.pdb
+/Users/user/Desktop/eCommerceApp_YP/eCommerceApp_YP/obj/Debug/net7.0/eCommerceApp_YP.csproj.AssemblyReference.cache
+/Users/user/Desktop/eCommerceApp_YP/eCommerceApp_YP/obj/Debug/net7.0/eCommerceApp_YP.GeneratedMSBuildEditorConfig.editorconfig
+/Users/user/Desktop/eCommerceApp_YP/eCommerceApp_YP/obj/Debug/net7.0/eCommerceApp_YP.AssemblyInfoInputs.cache
+/Users/user/Desktop/eCommerceApp_YP/eCommerceApp_YP/obj/Debug/net7.0/eCommerceApp_YP.AssemblyInfo.cs
+/Users/user/Desktop/eCommerceApp_YP/eCommerceApp_YP/obj/Debug/net7.0/eCommerceApp_YP.csproj.CoreCompileInputs.cache
+/Users/user/Desktop/eCommerceApp_YP/eCommerceApp_YP/obj/Debug/net7.0/eCommerceApp_YP.dll
+/Users/user/Desktop/eCommerceApp_YP/eCommerceApp_YP/obj/Debug/net7.0/refint/eCommerceApp_YP.dll
+/Users/user/Desktop/eCommerceApp_YP/eCommerceApp_YP/obj/Debug/net7.0/eCommerceApp_YP.pdb
+/Users/user/Desktop/eCommerceApp_YP/eCommerceApp_YP/obj/Debug/net7.0/eCommerceApp_YP.genruntimeconfig.cache
+/Users/user/Desktop/eCommerceApp_YP/eCommerceApp_YP/obj/Debug/net7.0/ref/eCommerceApp_YP.dll
