@@ -169,5 +169,80 @@ namespace eCommerceApp.nUnitTests
             // Assert
             Assert.That(product.Stock, Is.EqualTo(stock));
         }
+
+
+        // IncreaseStock tests
+        [Test]
+        public void IncreaseStock_Valid_ShouldIncrease()
+        {
+            // Arrange
+            var product = new Product(1, "Smartphone", 100, 10);
+            int increaseAmount = 5;
+
+            // Act
+            product.IncreaseStock(increaseAmount);
+
+            // Assert
+            Assert.That(product.Stock, Is.EqualTo(15));
+        }
+
+        [Test]
+        public void IncreaseStock_Invalid_ShouldThrow()
+        {
+            // Arrange
+            var product = new Product(1, "Smartphone", 100, 10);
+            int increaseAmount = -5;
+
+            // Act & Assert
+            Assert.That(() => product.IncreaseStock(increaseAmount), Throws.TypeOf<ArgumentOutOfRangeException>());
+        }
+
+        [Test]
+        public void IncreaseStock_Max_ShouldNotThrow()
+        {
+            // Arrange
+            var product = new Product(1, "Smartphone", 100, 100000);
+            int increaseAmount = 1;
+
+            // Act & Assert
+            Assert.That(() => product.IncreaseStock(increaseAmount), Throws.Nothing);
+        }
+
+        // DecreaseStock tests
+        [Test]
+        public void DecreaseStock_Valid_ShouldDecrease()
+        {
+            // Arrange
+            var product = new Product(1, "Smartphone", 100, 10);
+            int decreaseAmount = 5;
+
+            // Act
+            product.DecreaseStock(decreaseAmount);
+
+            // Assert
+            Assert.That(product.Stock, Is.EqualTo(5));
+        }
+
+        [Test]
+        public void DecreaseStock_Invalid_ShouldThrow()
+        {
+            // Arrange
+            var product = new Product(1, "Smartphone", 100, 10);
+            int decreaseAmount = -5;
+
+            // Act & Assert
+            Assert.That(() => product.DecreaseStock(decreaseAmount), Throws.TypeOf<ArgumentOutOfRangeException>());
+        }
+
+        [Test]
+        public void DecreaseStock_TooMuch_ShouldThrow()
+        {
+            // Arrange
+            var product = new Product(1, "Smartphone", 100, 10);
+            int decreaseAmount = 15;
+
+            // Act & Assert
+            Assert.That(() => product.DecreaseStock(decreaseAmount), Throws.TypeOf<InvalidOperationException>());
+        }
     }
 }
